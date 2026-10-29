@@ -1,0 +1,14 @@
+config.py
+data/
+logs/
+__pycache__/
+*.pyc
+*.orig
+
+# local deploy helpers — reference the local path to the credentials file (not the
+# creds themselves) and are VPS/desktop-specific. Keep out of the repo.
+vpsx.py
+vpspush.py
+vps_deploy_scripts.py
+test_connect.py
+_ghtoken.txt
